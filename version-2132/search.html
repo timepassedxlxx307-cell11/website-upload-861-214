@@ -1,0 +1,959 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>影片搜索 - 国产影视大全</title>
+    <meta name="description" content="国产影视大全影片搜索，支持按片名、年份、地区、类型、标签和剧情关键词快速查找在线观看内容。">
+    <meta name="keywords" content="影片搜索,国产影视大全 - 免费高清在线观看最新国产片与电视剧-免费看电影,国产,视频,免费,在线观看,高清,影视大全">
+    <meta name="applicable-device" content="pc,mobile">
+    <meta name="renderer" content="webkit">
+    <link rel="stylesheet" href="./assets/site.css">
+    <script src="./assets/movies-data.js" defer></script>
+</head>
+<body>
+<header class="site-header">
+    <div class="container header-inner">
+        <a class="brand" href="./index.html" aria-label="国产影视大全">
+            <span class="brand-mark">影</span>
+            <span class="brand-text">国产影视大全</span>
+        </a>
+        <nav class="main-nav" aria-label="主导航">
+            <a href="./index.html">首页</a>
+            <a href="./categories.html">分类</a>
+                <a href="./category-hot-picks.html">热映精选</a>
+                <a href="./category-cinema-hits.html">院线热片</a>
+                <a href="./category-drama-series.html">剧集连看</a>
+                <a href="./category-suspense-night.html">悬疑夜场</a>
+                <a href="./category-action-zone.html">动作专区</a>
+                <a href="./category-romance-city.html">都市爱情</a>
+            <a href="./ranking.html">排行</a>
+        </nav>
+        <form class="top-search" data-site-search action="./search.html" method="get">
+            <input type="search" name="q" placeholder="搜索影片、类型、地区" autocomplete="off">
+            <button type="submit">搜索</button>
+        </form>
+        <button class="menu-toggle" type="button" data-menu-toggle aria-label="打开菜单">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </div>
+    <div class="mobile-panel" data-mobile-panel>
+        <a href="./index.html">首页</a>
+        <a href="./categories.html">分类总览</a>
+        <a href="./ranking.html">排行榜</a>
+        <a href="./search.html">搜索</a>
+        <a href="./category-hot-picks.html">热映精选</a><a href="./category-cinema-hits.html">院线热片</a><a href="./category-drama-series.html">剧集连看</a><a href="./category-suspense-night.html">悬疑夜场</a><a href="./category-action-zone.html">动作专区</a><a href="./category-romance-city.html">都市爱情</a><a href="./category-classic-library.html">经典片库</a><a href="./category-youth-comedy.html">青春喜剧</a><a href="./category-history-costume.html">历史古装</a><a href="./category-fantasy-sci-fi.html">奇幻科幻</a><a href="./category-family-life.html">家庭生活</a><a href="./category-global-stories.html">全球佳作</a>
+    </div>
+</header>
+<main>
+    <section class="page-hero search-hero">
+        <div class="container">
+            <span class="eyebrow">Search</span>
+            <h1>影片搜索</h1>
+            <p>可按片名、地区、年份、类型、标签和剧情关键词检索影片。</p>
+            <form class="search-page-form" data-search-page-form action="./search.html" method="get">
+                <input type="search" name="q" data-search-input placeholder="输入想看的影片或类型" autocomplete="off">
+                <button type="submit">搜索</button>
+            </form>
+        </div>
+    </section>
+    <section class="section" data-search-page>
+        <div class="container section-head">
+            <div>
+                <span class="eyebrow">搜索结果</span>
+                <h2 data-search-title>推荐影片</h2>
+            </div>
+        </div>
+        <div class="container movie-grid" data-search-results>
+            <article class="movie-card movie-card-compact" data-movie-card data-title="丈夫因素2" data-meta="丈夫因素2 泰国 电影 2026 恐怖/惊悚 东南亚民俗,怪谈,女性复仇,高概念 为了得到一个完美的丈夫,女人们开始用古老的巫术“种植”男人,但收获的季节来了。">
+    <a href="./movies/movie-0910.html" title="丈夫因素2 在线观看">
+        <div class="poster-wrap">
+            <img src="./10.jpg" alt="丈夫因素2" loading="lazy">
+            <span class="poster-badge">电影</span>
+        </div>
+        <div class="movie-card-body">
+            <h3>丈夫因素2</h3>
+            <p class="card-meta">2026 · 泰国 · 电影 · 恐怖/惊悚</p>
+            <p class="card-line">为了得到一个完美的丈夫,女人们开始用古老的巫术“种植”男人,但收获的季节来了。</p>
+            <div class="tag-row"><span>东南亚民俗</span><span>怪谈</span><span>女性复仇</span></div>
+        </div>
+    </a>
+</article>
+<article class="movie-card movie-card-compact" data-movie-card data-title="开心超人联盟之英雄归来" data-meta="开心超人联盟之英雄归来 中国 动画电影 2026 喜剧/动作/科幻 童年回归,超英合体,反派洗白 开心超人退休五年后变成了一个送外卖的普通胖子,直到曾经的宿敌哭着求他归队,说星星球要完了。">
+    <a href="./movies/movie-0363.html" title="开心超人联盟之英雄归来 在线观看">
+        <div class="poster-wrap">
+            <img src="./63.jpg" alt="开心超人联盟之英雄归来" loading="lazy">
+            <span class="poster-badge">动画电影</span>
+        </div>
+        <div class="movie-card-body">
+            <h3>开心超人联盟之英雄归来</h3>
+            <p class="card-meta">2026 · 中国 · 动画电影 · 喜剧/动作/科幻</p>
+            <p class="card-line">开心超人退休五年后变成了一个送外卖的普通胖子,直到曾经的宿敌哭着求他归队,说星星球要完了。</p>
+            <div class="tag-row"><span>童年回归</span><span>超英合体</span><span>反派洗白</span></div>
+        </div>
+    </a>
+</article>
+<article class="movie-card movie-card-compact" data-movie-card data-title="玩命追缉:贝克街大劫案" data-meta="玩命追缉:贝克街大劫案 英国 电影 2026 犯罪/动作 伦敦,高速追车,团队盗贼,福尔摩斯彩蛋,实时叙事 为了偷走藏在贝克街221B地下的梵高真迹,一群狂徒必须在一小时内骗过全城的警察和AI监控。">
+    <a href="./movies/movie-1888.html" title="玩命追缉:贝克街大劫案 在线观看">
+        <div class="poster-wrap">
+            <img src="./88.jpg" alt="玩命追缉:贝克街大劫案" loading="lazy">
+            <span class="poster-badge">电影</span>
+        </div>
+        <div class="movie-card-body">
+            <h3>玩命追缉:贝克街大劫案</h3>
+            <p class="card-meta">2026 · 英国 · 电影 · 犯罪/动作</p>
+            <p class="card-line">为了偷走藏在贝克街221B地下的梵高真迹,一群狂徒必须在一小时内骗过全城的警察和AI监控。</p>
+            <div class="tag-row"><span>伦敦</span><span>高速追车</span><span>团队盗贼</span></div>
+        </div>
+    </a>
+</article>
+<article class="movie-card movie-card-compact" data-movie-card data-title="关于塔利" data-meta="关于塔利 美国 电影 2026 剧情/悬疑/同性 失踪,回忆录,小镇,秘密,同性之恋 畅销书作家回乡调查高中闺蜜塔利的失踪案,却发现自己当年写的小说,每一页都是真实犯罪。">
+    <a href="./movies/movie-0512.html" title="关于塔利 在线观看">
+        <div class="poster-wrap">
+            <img src="./62.jpg" alt="关于塔利" loading="lazy">
+            <span class="poster-badge">电影</span>
+        </div>
+        <div class="movie-card-body">
+            <h3>关于塔利</h3>
+            <p class="card-meta">2026 · 美国 · 电影 · 剧情/悬疑/同性</p>
+            <p class="card-line">畅销书作家回乡调查高中闺蜜塔利的失踪案,却发现自己当年写的小说,每一页都是真实犯罪。</p>
+            <div class="tag-row"><span>失踪</span><span>回忆录</span><span>小镇</span></div>
+        </div>
+    </a>
+</article>
+<article class="movie-card movie-card-compact" data-movie-card data-title="独特的兄弟" data-meta="独特的兄弟 美国 电影 2026 喜剧,家庭,运动 篮球,兄弟情,残疾人,励志,搞笑 为了帮只有一只手的天才弟弟圆梦NBA,四肢发达头脑简单的哥哥决定做他的“专属双手”。">
+    <a href="./movies/movie-1123.html" title="独特的兄弟 在线观看">
+        <div class="poster-wrap">
+            <img src="./73.jpg" alt="独特的兄弟" loading="lazy">
+            <span class="poster-badge">电影</span>
+        </div>
+        <div class="movie-card-body">
+            <h3>独特的兄弟</h3>
+            <p class="card-meta">2026 · 美国 · 电影 · 喜剧,家庭,运动</p>
+            <p class="card-line">为了帮只有一只手的天才弟弟圆梦NBA,四肢发达头脑简单的哥哥决定做他的“专属双手”。</p>
+            <div class="tag-row"><span>篮球</span><span>兄弟情</span><span>残疾人</span></div>
+        </div>
+    </a>
+</article>
+<article class="movie-card movie-card-compact" data-movie-card data-title="浩瀚的夜晚" data-meta="浩瀚的夜晚 美国 电影 2026 科幻/悬疑 冷战,电台,不明信号,新墨西哥州 1950年代新墨西哥州的一个深夜,电台DJ和总机接线员通过电波发现,一个不属于人类的声音正在向他们发出警告。">
+    <a href="./movies/movie-0750.html" title="浩瀚的夜晚 在线观看">
+        <div class="poster-wrap">
+            <img src="./150.jpg" alt="浩瀚的夜晚" loading="lazy">
+            <span class="poster-badge">电影</span>
+        </div>
+        <div class="movie-card-body">
+            <h3>浩瀚的夜晚</h3>
+            <p class="card-meta">2026 · 美国 · 电影 · 科幻/悬疑</p>
+            <p class="card-line">1950年代新墨西哥州的一个深夜,电台DJ和总机接线员通过电波发现,一个不属于人类的声音正在向他们发出警告。</p>
+            <div class="tag-row"><span>冷战</span><span>电台</span><span>不明信号</span></div>
+        </div>
+    </a>
+</article>
+<article class="movie-card movie-card-compact" data-movie-card data-title="黑暗王子:德古拉" data-meta="黑暗王子:德古拉 英国 剧集 2026 剧情,恐怖,历史 德古拉,起源,吸血鬼,历史改编,暗黑 在成为传说之前,他是罗马尼亚的“穿刺公”弗拉德三世,一个在信仰与嗜血之间挣扎的黑暗王子。">
+    <a href="./movies/movie-1762.html" title="黑暗王子:德古拉 在线观看">
+        <div class="poster-wrap">
+            <img src="./112.jpg" alt="黑暗王子:德古拉" loading="lazy">
+            <span class="poster-badge">剧集</span>
+        </div>
+        <div class="movie-card-body">
+            <h3>黑暗王子:德古拉</h3>
+            <p class="card-meta">2026 · 英国 · 剧集 · 剧情,恐怖,历史</p>
+            <p class="card-line">在成为传说之前,他是罗马尼亚的“穿刺公”弗拉德三世,一个在信仰与嗜血之间挣扎的黑暗王子。</p>
+            <div class="tag-row"><span>德古拉</span><span>起源</span><span>吸血鬼</span></div>
+        </div>
+    </a>
+</article>
+<article class="movie-card movie-card-compact" data-movie-card data-title="万界仙踪" data-meta="万界仙踪 中国大陆 剧集 2026 奇幻、仙侠、冒险 穿越,修仙,多元宇宙,废柴逆袭,宗门 现代物理学研究生穿进修仙界,用热力学第二定律把修仙大佬搞崩溃了。">
+    <a href="./movies/movie-0259.html" title="万界仙踪 在线观看">
+        <div class="poster-wrap">
+            <img src="./109.jpg" alt="万界仙踪" loading="lazy">
+            <span class="poster-badge">剧集</span>
+        </div>
+        <div class="movie-card-body">
+            <h3>万界仙踪</h3>
+            <p class="card-meta">2026 · 中国大陆 · 剧集 · 奇幻、仙侠、冒险</p>
+            <p class="card-line">现代物理学研究生穿进修仙界,用热力学第二定律把修仙大佬搞崩溃了。</p>
+            <div class="tag-row"><span>穿越</span><span>修仙</span><span>多元宇宙</span></div>
+        </div>
+    </a>
+</article>
+<article class="movie-card movie-card-compact" data-movie-card data-title="玫瑰园" data-meta="玫瑰园 中国大陆 剧集 2026 悬疑/家庭/年代 凶宅,家族秘密,文革 一座荒废了四十年的玫瑰园重新挂牌出售,每一位走进去的看房客,都声称看到了同一个穿红裙子的女孩。">
+    <a href="./movies/movie-0651.html" title="玫瑰园 在线观看">
+        <div class="poster-wrap">
+            <img src="./51.jpg" alt="玫瑰园" loading="lazy">
+            <span class="poster-badge">剧集</span>
+        </div>
+        <div class="movie-card-body">
+            <h3>玫瑰园</h3>
+            <p class="card-meta">2026 · 中国大陆 · 剧集 · 悬疑/家庭/年代</p>
+            <p class="card-line">一座荒废了四十年的玫瑰园重新挂牌出售,每一位走进去的看房客,都声称看到了同一个穿红裙子的女孩。</p>
+            <div class="tag-row"><span>凶宅</span><span>家族秘密</span><span>文革</span></div>
+        </div>
+    </a>
+</article>
+<article class="movie-card movie-card-compact" data-movie-card data-title="兔儿爷" data-meta="兔儿爷 中国大陆 电影 2026 奇幻民俗 北京,民间传说,非遗,治愈 一个骗人的假文物贩子,中秋节前被一只泥塑兔儿爷缠上,被迫帮它完成三百年前的未了心愿。">
+    <a href="./movies/movie-0183.html" title="兔儿爷 在线观看">
+        <div class="poster-wrap">
+            <img src="./33.jpg" alt="兔儿爷" loading="lazy">
+            <span class="poster-badge">电影</span>
+        </div>
+        <div class="movie-card-body">
+            <h3>兔儿爷</h3>
+            <p class="card-meta">2026 · 中国大陆 · 电影 · 奇幻民俗</p>
+            <p class="card-line">一个骗人的假文物贩子,中秋节前被一只泥塑兔儿爷缠上,被迫帮它完成三百年前的未了心愿。</p>
+            <div class="tag-row"><span>北京</span><span>民间传说</span><span>非遗</span></div>
+        </div>
+    </a>
+</article>
+<article class="movie-card movie-card-compact" data-movie-card data-title="心灵烙码" data-meta="心灵烙码 阿根廷 电影 2026 奇幻,剧情 记忆删除,视觉隐喻,爱情 在一家能删除特定记忆的诊所里,一位女技师发现,她自己的爱情烙印竟然被前任老板用代码锁死。">
+    <a href="./movies/movie-0064.html" title="心灵烙码 在线观看">
+        <div class="poster-wrap">
+            <img src="./64.jpg" alt="心灵烙码" loading="lazy">
+            <span class="poster-badge">电影</span>
+        </div>
+        <div class="movie-card-body">
+            <h3>心灵烙码</h3>
+            <p class="card-meta">2026 · 阿根廷 · 电影 · 奇幻,剧情</p>
+            <p class="card-line">在一家能删除特定记忆的诊所里,一位女技师发现,她自己的爱情烙印竟然被前任老板用代码锁死。</p>
+            <div class="tag-row"><span>记忆删除</span><span>视觉隐喻</span><span>爱情</span></div>
+        </div>
+    </a>
+</article>
+<article class="movie-card movie-card-compact" data-movie-card data-title="恶之三联画" data-meta="恶之三联画 日本 电视剧 2026 悬疑/犯罪/恐怖 单元剧,古典艺术,心理犯罪,叙述性诡计,致郁 一幅中世纪失窃的三联画重现东京,每个拥有它的人都按照画中“地狱、人间、天堂”的顺序离奇死亡。">
+    <a href="./movies/movie-0862.html" title="恶之三联画 在线观看">
+        <div class="poster-wrap">
+            <img src="./112.jpg" alt="恶之三联画" loading="lazy">
+            <span class="poster-badge">电视剧</span>
+        </div>
+        <div class="movie-card-body">
+            <h3>恶之三联画</h3>
+            <p class="card-meta">2026 · 日本 · 电视剧 · 悬疑/犯罪/恐怖</p>
+            <p class="card-line">一幅中世纪失窃的三联画重现东京,每个拥有它的人都按照画中“地狱、人间、天堂”的顺序离奇死亡。</p>
+            <div class="tag-row"><span>单元剧</span><span>古典艺术</span><span>心理犯罪</span></div>
+        </div>
+    </a>
+</article>
+<article class="movie-card movie-card-compact" data-movie-card data-title="冥王星" data-meta="冥王星 美国/德国 剧集 2026 科幻/悬疑/惊悚 星际殖民,集体失忆,人造重力异常,密室推理 冥王星基地全体220人同时丢失了最近72小时记忆,而倒计时显示“恒星炸弹”将在48小时后引爆。">
+    <a href="./movies/movie-1481.html" title="冥王星 在线观看">
+        <div class="poster-wrap">
+            <img src="./131.jpg" alt="冥王星" loading="lazy">
+            <span class="poster-badge">剧集</span>
+        </div>
+        <div class="movie-card-body">
+            <h3>冥王星</h3>
+            <p class="card-meta">2026 · 美国/德国 · 剧集 · 科幻/悬疑/惊悚</p>
+            <p class="card-line">冥王星基地全体220人同时丢失了最近72小时记忆,而倒计时显示“恒星炸弹”将在48小时后引爆。</p>
+            <div class="tag-row"><span>星际殖民</span><span>集体失忆</span><span>人造重力异常</span></div>
+        </div>
+    </a>
+</article>
+<article class="movie-card movie-card-compact" data-movie-card data-title="曼谷复仇" data-meta="曼谷复仇 泰国 电影 2026 动作/犯罪/惊悚 泰拳,复仇,暗网 为了救出被拐卖的女儿,一名哑巴清洁工重拾泰拳,打穿曼谷地下的人口贩卖网络。">
+    <a href="./movies/movie-0595.html" title="曼谷复仇 在线观看">
+        <div class="poster-wrap">
+            <img src="./145.jpg" alt="曼谷复仇" loading="lazy">
+            <span class="poster-badge">电影</span>
+        </div>
+        <div class="movie-card-body">
+            <h3>曼谷复仇</h3>
+            <p class="card-meta">2026 · 泰国 · 电影 · 动作/犯罪/惊悚</p>
+            <p class="card-line">为了救出被拐卖的女儿,一名哑巴清洁工重拾泰拳,打穿曼谷地下的人口贩卖网络。</p>
+            <div class="tag-row"><span>泰拳</span><span>复仇</span><span>暗网</span></div>
+        </div>
+    </a>
+</article>
+<article class="movie-card movie-card-compact" data-movie-card data-title="生命奇色" data-meta="生命奇色 法国 电影 2026 剧情,奇幻 视觉盛宴,色彩,绝症,治愈,重生 色盲画家被告知只剩百日寿命,注射实验药物后,他竟能看到世间从未见过的色彩,但也看到了死亡的具象。">
+    <a href="./movies/movie-1247.html" title="生命奇色 在线观看">
+        <div class="poster-wrap">
+            <img src="./47.jpg" alt="生命奇色" loading="lazy">
+            <span class="poster-badge">电影</span>
+        </div>
+        <div class="movie-card-body">
+            <h3>生命奇色</h3>
+            <p class="card-meta">2026 · 法国 · 电影 · 剧情,奇幻</p>
+            <p class="card-line">色盲画家被告知只剩百日寿命,注射实验药物后,他竟能看到世间从未见过的色彩,但也看到了死亡的具象。</p>
+            <div class="tag-row"><span>视觉盛宴</span><span>色彩</span><span>绝症</span></div>
+        </div>
+    </a>
+</article>
+<article class="movie-card movie-card-compact" data-movie-card data-title="蒙梭罗夫人" data-meta="蒙梭罗夫人 法国 剧集 2026 剧情/历史 大仲马,宫廷,复仇 改编自大仲马原著,法国宗教战争背景下,一个女人和四个男人之间的爱情、阴谋与不死不休的复仇。">
+    <a href="./movies/movie-1399.html" title="蒙梭罗夫人 在线观看">
+        <div class="poster-wrap">
+            <img src="./49.jpg" alt="蒙梭罗夫人" loading="lazy">
+            <span class="poster-badge">剧集</span>
+        </div>
+        <div class="movie-card-body">
+            <h3>蒙梭罗夫人</h3>
+            <p class="card-meta">2026 · 法国 · 剧集 · 剧情/历史</p>
+            <p class="card-line">改编自大仲马原著,法国宗教战争背景下,一个女人和四个男人之间的爱情、阴谋与不死不休的复仇。</p>
+            <div class="tag-row"><span>大仲马</span><span>宫廷</span><span>复仇</span></div>
+        </div>
+    </a>
+</article>
+<article class="movie-card movie-card-compact" data-movie-card data-title="猛龙怪客4:镇压" data-meta="猛龙怪客4:镇压 美国 电影 2026 动作/犯罪 硬汉,反乌托邦,私刑执法 当政府用AI机器人戒严城市时,当年的私刑复仇者成了唯一能对抗系统的“恐怖分子”。">
+    <a href="./movies/movie-1219.html" title="猛龙怪客4:镇压 在线观看">
+        <div class="poster-wrap">
+            <img src="./19.jpg" alt="猛龙怪客4:镇压" loading="lazy">
+            <span class="poster-badge">电影</span>
+        </div>
+        <div class="movie-card-body">
+            <h3>猛龙怪客4:镇压</h3>
+            <p class="card-meta">2026 · 美国 · 电影 · 动作/犯罪</p>
+            <p class="card-line">当政府用AI机器人戒严城市时,当年的私刑复仇者成了唯一能对抗系统的“恐怖分子”。</p>
+            <div class="tag-row"><span>硬汉</span><span>反乌托邦</span><span>私刑执法</span></div>
+        </div>
+    </a>
+</article>
+<article class="movie-card movie-card-compact" data-movie-card data-title="洛城大暴动" data-meta="洛城大暴动 美国 电影 2026 动作,犯罪,灾难 洛杉矶,暴动,母女,地铁 洛杉矶全城暴动,一位母亲必须穿越十条街区的火海,救出困在地铁里的女儿。">
+    <a href="./movies/movie-0404.html" title="洛城大暴动 在线观看">
+        <div class="poster-wrap">
+            <img src="./104.jpg" alt="洛城大暴动" loading="lazy">
+            <span class="poster-badge">电影</span>
+        </div>
+        <div class="movie-card-body">
+            <h3>洛城大暴动</h3>
+            <p class="card-meta">2026 · 美国 · 电影 · 动作,犯罪,灾难</p>
+            <p class="card-line">洛杉矶全城暴动,一位母亲必须穿越十条街区的火海,救出困在地铁里的女儿。</p>
+            <div class="tag-row"><span>洛杉矶</span><span>暴动</span><span>母女</span></div>
+        </div>
+    </a>
+</article>
+<article class="movie-card movie-card-compact" data-movie-card data-title="动物宝宝" data-meta="动物宝宝 英国 剧集 2026 喜剧/动画/家庭 萌系,幼儿园,动物拟人,治愈,冒险 在一个由婴儿动物组成的幼儿园里,每天都是一场为了零食和午睡毯的战争。">
+    <a href="./movies/movie-0424.html" title="动物宝宝 在线观看">
+        <div class="poster-wrap">
+            <img src="./124.jpg" alt="动物宝宝" loading="lazy">
+            <span class="poster-badge">剧集</span>
+        </div>
+        <div class="movie-card-body">
+            <h3>动物宝宝</h3>
+            <p class="card-meta">2026 · 英国 · 剧集 · 喜剧/动画/家庭</p>
+            <p class="card-line">在一个由婴儿动物组成的幼儿园里,每天都是一场为了零食和午睡毯的战争。</p>
+            <div class="tag-row"><span>萌系</span><span>幼儿园</span><span>动物拟人</span></div>
+        </div>
+    </a>
+</article>
+<article class="movie-card movie-card-compact" data-movie-card data-title="深网" data-meta="深网 美国 剧集 2026 犯罪/悬疑/科技惊悚 暗网,黑客,悬疑推理,虚拟现实,高科技犯罪 三名黑客无意闯入暗网深处的“游戏场”,发现每一场游戏都是用真实人命做赌注。">
+    <a href="./movies/movie-1159.html" title="深网 在线观看">
+        <div class="poster-wrap">
+            <img src="./109.jpg" alt="深网" loading="lazy">
+            <span class="poster-badge">剧集</span>
+        </div>
+        <div class="movie-card-body">
+            <h3>深网</h3>
+            <p class="card-meta">2026 · 美国 · 剧集 · 犯罪/悬疑/科技惊悚</p>
+            <p class="card-line">三名黑客无意闯入暗网深处的“游戏场”,发现每一场游戏都是用真实人命做赌注。</p>
+            <div class="tag-row"><span>暗网</span><span>黑客</span><span>悬疑推理</span></div>
+        </div>
+    </a>
+</article>
+<article class="movie-card movie-card-compact" data-movie-card data-title="猫狗大战3:爪爪集结!" data-meta="猫狗大战3:爪爪集结! 美国 电影 2026 喜剧,动画,冒险 动物拟人,特工喜剧,合家欢,猫狗合作,反派洗白 为了对抗突然降临的外星仓鼠,死对头猫狗特工不得不放下恩怨,组建史上最不靠谱的“爪爪联盟”。">
+    <a href="./movies/movie-0494.html" title="猫狗大战3:爪爪集结! 在线观看">
+        <div class="poster-wrap">
+            <img src="./44.jpg" alt="猫狗大战3:爪爪集结!" loading="lazy">
+            <span class="poster-badge">电影</span>
+        </div>
+        <div class="movie-card-body">
+            <h3>猫狗大战3:爪爪集结!</h3>
+            <p class="card-meta">2026 · 美国 · 电影 · 喜剧,动画,冒险</p>
+            <p class="card-line">为了对抗突然降临的外星仓鼠,死对头猫狗特工不得不放下恩怨,组建史上最不靠谱的“爪爪联盟”。</p>
+            <div class="tag-row"><span>动物拟人</span><span>特工喜剧</span><span>合家欢</span></div>
+        </div>
+    </a>
+</article>
+<article class="movie-card movie-card-compact" data-movie-card data-title="性感女特工2" data-meta="性感女特工2 美国 电影 2026 动作/惊悚/犯罪 女性特工,暴力美学,全球追杀,黑色幽默,B级片 上集退休的性感女特工如今在超市当收银员,但黑帮绑架了她的猫,逼她重出江湖。">
+    <a href="./movies/movie-0983.html" title="性感女特工2 在线观看">
+        <div class="poster-wrap">
+            <img src="./83.jpg" alt="性感女特工2" loading="lazy">
+            <span class="poster-badge">电影</span>
+        </div>
+        <div class="movie-card-body">
+            <h3>性感女特工2</h3>
+            <p class="card-meta">2026 · 美国 · 电影 · 动作/惊悚/犯罪</p>
+            <p class="card-line">上集退休的性感女特工如今在超市当收银员,但黑帮绑架了她的猫,逼她重出江湖。</p>
+            <div class="tag-row"><span>女性特工</span><span>暴力美学</span><span>全球追杀</span></div>
+        </div>
+    </a>
+</article>
+<article class="movie-card movie-card-compact" data-movie-card data-title="两位女巫" data-meta="两位女巫 西班牙/墨西哥 电影 2026 恐怖/奇幻 女巫,民俗恐怖,母女,祭祀 一对经营草药店的母女其实是世代守护封印的女巫,直到封印下镇压的“饥饿之神”骗走了女儿的身体。">
+    <a href="./movies/movie-0245.html" title="两位女巫 在线观看">
+        <div class="poster-wrap">
+            <img src="./95.jpg" alt="两位女巫" loading="lazy">
+            <span class="poster-badge">电影</span>
+        </div>
+        <div class="movie-card-body">
+            <h3>两位女巫</h3>
+            <p class="card-meta">2026 · 西班牙/墨西哥 · 电影 · 恐怖/奇幻</p>
+            <p class="card-line">一对经营草药店的母女其实是世代守护封印的女巫,直到封印下镇压的“饥饿之神”骗走了女儿的身体。</p>
+            <div class="tag-row"><span>女巫</span><span>民俗恐怖</span><span>母女</span></div>
+        </div>
+    </a>
+</article>
+<article class="movie-card movie-card-compact" data-movie-card data-title="在首领猎人的土地上" data-meta="在首领猎人的土地上 法国/德国 电影 2026 战争、历史、剧情 一战,非洲殖民,黑人士兵,法语片,人性 一战期间,被法国强征的非洲猎人在欧洲战场屠杀“首领”——那些和他一样被迫穿上军服的黑人士兵。">
+    <a href="./movies/movie-1281.html" title="在首领猎人的土地上 在线观看">
+        <div class="poster-wrap">
+            <img src="./81.jpg" alt="在首领猎人的土地上" loading="lazy">
+            <span class="poster-badge">电影</span>
+        </div>
+        <div class="movie-card-body">
+            <h3>在首领猎人的土地上</h3>
+            <p class="card-meta">2026 · 法国/德国 · 电影 · 战争、历史、剧情</p>
+            <p class="card-line">一战期间,被法国强征的非洲猎人在欧洲战场屠杀“首领”——那些和他一样被迫穿上军服的黑人士兵。</p>
+            <div class="tag-row"><span>一战</span><span>非洲殖民</span><span>黑人士兵</span></div>
+        </div>
+    </a>
+</article>
+<article class="movie-card movie-card-compact" data-movie-card data-title="铁腕天使" data-meta="铁腕天使 中国香港 电影 2026 动作、犯罪 女保镖,黑市器官,复仇,冷兵器 聋哑退役女兵为救被绑架的女儿,单枪匹马闯入地下器官黑市,化身无声死神。">
+    <a href="./movies/movie-1671.html" title="铁腕天使 在线观看">
+        <div class="poster-wrap">
+            <img src="./21.jpg" alt="铁腕天使" loading="lazy">
+            <span class="poster-badge">电影</span>
+        </div>
+        <div class="movie-card-body">
+            <h3>铁腕天使</h3>
+            <p class="card-meta">2026 · 中国香港 · 电影 · 动作、犯罪</p>
+            <p class="card-line">聋哑退役女兵为救被绑架的女儿,单枪匹马闯入地下器官黑市,化身无声死神。</p>
+            <div class="tag-row"><span>女保镖</span><span>黑市器官</span><span>复仇</span></div>
+        </div>
+    </a>
+</article>
+<article class="movie-card movie-card-compact" data-movie-card data-title="弗兰奇街13号" data-meta="弗兰奇街13号 美国 电影 2026 恐怖/悬疑 心理惊悚,鬼屋,家族诅咒 搬进弗兰奇街13号那晚,母亲在阁楼发现了一本记录着全家死亡日期的日记。">
+    <a href="./movies/movie-1039.html" title="弗兰奇街13号 在线观看">
+        <div class="poster-wrap">
+            <img src="./139.jpg" alt="弗兰奇街13号" loading="lazy">
+            <span class="poster-badge">电影</span>
+        </div>
+        <div class="movie-card-body">
+            <h3>弗兰奇街13号</h3>
+            <p class="card-meta">2026 · 美国 · 电影 · 恐怖/悬疑</p>
+            <p class="card-line">搬进弗兰奇街13号那晚,母亲在阁楼发现了一本记录着全家死亡日期的日记。</p>
+            <div class="tag-row"><span>心理惊悚</span><span>鬼屋</span><span>家族诅咒</span></div>
+        </div>
+    </a>
+</article>
+<article class="movie-card movie-card-compact" data-movie-card data-title="跳进地理书的旅行第四季" data-meta="跳进地理书的旅行第四季 中国大陆 综艺 2026 真人秀,教育,旅行 户外科普,实景教学,明星旅行,地理知识 本季嘉宾被丢进世界海拔最高的“死亡禁区”可可西里,每解一道地理题才能获得一瓶水。">
+    <a href="./movies/movie-0439.html" title="跳进地理书的旅行第四季 在线观看">
+        <div class="poster-wrap">
+            <img src="./139.jpg" alt="跳进地理书的旅行第四季" loading="lazy">
+            <span class="poster-badge">综艺</span>
+        </div>
+        <div class="movie-card-body">
+            <h3>跳进地理书的旅行第四季</h3>
+            <p class="card-meta">2026 · 中国大陆 · 综艺 · 真人秀,教育,旅行</p>
+            <p class="card-line">本季嘉宾被丢进世界海拔最高的“死亡禁区”可可西里,每解一道地理题才能获得一瓶水。</p>
+            <div class="tag-row"><span>户外科普</span><span>实景教学</span><span>明星旅行</span></div>
+        </div>
+    </a>
+</article>
+<article class="movie-card movie-card-compact" data-movie-card data-title="血腥拼图" data-meta="血腥拼图 美国 剧集 2026 犯罪/惊悚/推理 拼图杀手,连环杀人,FBI侧写,暗黑美学 华盛顿特区出现连环杀手,他将被害人肢解后重组成一幅幅“人体拼图”,而每一块缺失的肢体都指向下一个作案地点。">
+    <a href="./movies/movie-0557.html" title="血腥拼图 在线观看">
+        <div class="poster-wrap">
+            <img src="./107.jpg" alt="血腥拼图" loading="lazy">
+            <span class="poster-badge">剧集</span>
+        </div>
+        <div class="movie-card-body">
+            <h3>血腥拼图</h3>
+            <p class="card-meta">2026 · 美国 · 剧集 · 犯罪/惊悚/推理</p>
+            <p class="card-line">华盛顿特区出现连环杀手,他将被害人肢解后重组成一幅幅“人体拼图”,而每一块缺失的肢体都指向下一个作案地点。</p>
+            <div class="tag-row"><span>拼图杀手</span><span>连环杀人</span><span>FBI侧写</span></div>
+        </div>
+    </a>
+</article>
+<article class="movie-card movie-card-compact" data-movie-card data-title="影之地带" data-meta="影之地带 日本 电影 2026 悬疑,奇幻,剧情 影子,谋杀,替身,小镇 小镇居民们的影子开始脱离身体独立行动,并模仿主人犯下从未发生的罪行。">
+    <a href="./movies/movie-1378.html" title="影之地带 在线观看">
+        <div class="poster-wrap">
+            <img src="./28.jpg" alt="影之地带" loading="lazy">
+            <span class="poster-badge">电影</span>
+        </div>
+        <div class="movie-card-body">
+            <h3>影之地带</h3>
+            <p class="card-meta">2026 · 日本 · 电影 · 悬疑,奇幻,剧情</p>
+            <p class="card-line">小镇居民们的影子开始脱离身体独立行动,并模仿主人犯下从未发生的罪行。</p>
+            <div class="tag-row"><span>影子</span><span>谋杀</span><span>替身</span></div>
+        </div>
+    </a>
+</article>
+<article class="movie-card movie-card-compact" data-movie-card data-title="普通的故事" data-meta="普通的故事 中国 电影 2026 剧情,家庭 现实主义,日常生活,亲情,生老病死,静水流深 一个普通中年男人,在父亲去世、女儿叛逆、自己失业的这一年,学会了如何说“不”。">
+    <a href="./movies/movie-0642.html" title="普通的故事 在线观看">
+        <div class="poster-wrap">
+            <img src="./42.jpg" alt="普通的故事" loading="lazy">
+            <span class="poster-badge">电影</span>
+        </div>
+        <div class="movie-card-body">
+            <h3>普通的故事</h3>
+            <p class="card-meta">2026 · 中国 · 电影 · 剧情,家庭</p>
+            <p class="card-line">一个普通中年男人,在父亲去世、女儿叛逆、自己失业的这一年,学会了如何说“不”。</p>
+            <div class="tag-row"><span>现实主义</span><span>日常生活</span><span>亲情</span></div>
+        </div>
+    </a>
+</article>
+<article class="movie-card movie-card-compact" data-movie-card data-title="古老的庭院" data-meta="古老的庭院 韩国 电影 2026 剧情,爱情,历史 光州事件,政治犯,狱中书信,等待,全斗焕时期 他被判无期,她在监狱外建了一座小院,每天写信,一写就是十八年。">
+    <a href="./movies/movie-0839.html" title="古老的庭院 在线观看">
+        <div class="poster-wrap">
+            <img src="./89.jpg" alt="古老的庭院" loading="lazy">
+            <span class="poster-badge">电影</span>
+        </div>
+        <div class="movie-card-body">
+            <h3>古老的庭院</h3>
+            <p class="card-meta">2026 · 韩国 · 电影 · 剧情,爱情,历史</p>
+            <p class="card-line">他被判无期,她在监狱外建了一座小院,每天写信,一写就是十八年。</p>
+            <div class="tag-row"><span>光州事件</span><span>政治犯</span><span>狱中书信</span></div>
+        </div>
+    </a>
+</article>
+<article class="movie-card movie-card-compact" data-movie-card data-title="唯我独尊3:致命反击" data-meta="唯我独尊3:致命反击 美国 电影 2026 动作、犯罪、惊悚 硬核动作,以暴制暴,孤胆英雄,复仇 隐退的杀手之王被陷害,为了洗清罪名,他必须向整个地下世界发起致命反击。">
+    <a href="./movies/movie-0893.html" title="唯我独尊3:致命反击 在线观看">
+        <div class="poster-wrap">
+            <img src="./143.jpg" alt="唯我独尊3:致命反击" loading="lazy">
+            <span class="poster-badge">电影</span>
+        </div>
+        <div class="movie-card-body">
+            <h3>唯我独尊3:致命反击</h3>
+            <p class="card-meta">2026 · 美国 · 电影 · 动作、犯罪、惊悚</p>
+            <p class="card-line">隐退的杀手之王被陷害,为了洗清罪名,他必须向整个地下世界发起致命反击。</p>
+            <div class="tag-row"><span>硬核动作</span><span>以暴制暴</span><span>孤胆英雄</span></div>
+        </div>
+    </a>
+</article>
+<article class="movie-card movie-card-compact" data-movie-card data-title="生命之外" data-meta="生命之外 英国 电影 2026 科幻,剧情,哲学 濒死体验,意识上传,伦理困境 一名脑死亡患者的意识被上传到虚拟乌托邦,却发现那里成了另一种地狱。">
+    <a href="./movies/movie-0865.html" title="生命之外 在线观看">
+        <div class="poster-wrap">
+            <img src="./115.jpg" alt="生命之外" loading="lazy">
+            <span class="poster-badge">电影</span>
+        </div>
+        <div class="movie-card-body">
+            <h3>生命之外</h3>
+            <p class="card-meta">2026 · 英国 · 电影 · 科幻,剧情,哲学</p>
+            <p class="card-line">一名脑死亡患者的意识被上传到虚拟乌托邦,却发现那里成了另一种地狱。</p>
+            <div class="tag-row"><span>濒死体验</span><span>意识上传</span><span>伦理困境</span></div>
+        </div>
+    </a>
+</article>
+<article class="movie-card movie-card-compact" data-movie-card data-title="谁寄锦书来" data-meta="谁寄锦书来 中国大陆 电视剧 2026 爱情/悬疑 书信传情,错位人生,年代翻案 一封尘封三十年的情书被误投,竟揭开了两个家庭被篡改的命运,以及一场惊天冤案。">
+    <a href="./movies/movie-1638.html" title="谁寄锦书来 在线观看">
+        <div class="poster-wrap">
+            <img src="./138.jpg" alt="谁寄锦书来" loading="lazy">
+            <span class="poster-badge">电视剧</span>
+        </div>
+        <div class="movie-card-body">
+            <h3>谁寄锦书来</h3>
+            <p class="card-meta">2026 · 中国大陆 · 电视剧 · 爱情/悬疑</p>
+            <p class="card-line">一封尘封三十年的情书被误投,竟揭开了两个家庭被篡改的命运,以及一场惊天冤案。</p>
+            <div class="tag-row"><span>书信传情</span><span>错位人生</span><span>年代翻案</span></div>
+        </div>
+    </a>
+</article>
+<article class="movie-card movie-card-compact" data-movie-card data-title="直到夜尽头" data-meta="直到夜尽头 中国大陆 电影 2026 剧情/悬疑 复仇,公路,女性,救赎,黑色电影 一名被判误杀的女狱警出狱后,为寻找失踪女儿的下落,被迫重操旧业押送一名神秘囚犯穿越暗夜荒原。">
+    <a href="./movies/movie-1732.html" title="直到夜尽头 在线观看">
+        <div class="poster-wrap">
+            <img src="./82.jpg" alt="直到夜尽头" loading="lazy">
+            <span class="poster-badge">电影</span>
+        </div>
+        <div class="movie-card-body">
+            <h3>直到夜尽头</h3>
+            <p class="card-meta">2026 · 中国大陆 · 电影 · 剧情/悬疑</p>
+            <p class="card-line">一名被判误杀的女狱警出狱后,为寻找失踪女儿的下落,被迫重操旧业押送一名神秘囚犯穿越暗夜荒原。</p>
+            <div class="tag-row"><span>复仇</span><span>公路</span><span>女性</span></div>
+        </div>
+    </a>
+</article>
+<article class="movie-card movie-card-compact" data-movie-card data-title="绝地逢生" data-meta="绝地逢生 中国大陆 电影 2026 动作/冒险/犯罪 沙漠追凶,缉毒,孤胆英雄 一名被开除的边境警察为救被拐女儿,只身闯入大漠深处的毒枭营地,却发现女儿已是卧底。">
+    <a href="./movies/movie-0716.html" title="绝地逢生 在线观看">
+        <div class="poster-wrap">
+            <img src="./116.jpg" alt="绝地逢生" loading="lazy">
+            <span class="poster-badge">电影</span>
+        </div>
+        <div class="movie-card-body">
+            <h3>绝地逢生</h3>
+            <p class="card-meta">2026 · 中国大陆 · 电影 · 动作/冒险/犯罪</p>
+            <p class="card-line">一名被开除的边境警察为救被拐女儿,只身闯入大漠深处的毒枭营地,却发现女儿已是卧底。</p>
+            <div class="tag-row"><span>沙漠追凶</span><span>缉毒</span><span>孤胆英雄</span></div>
+        </div>
+    </a>
+</article>
+<article class="movie-card movie-card-compact" data-movie-card data-title="公正裁决" data-meta="公正裁决 韩国 剧集 2026 律政/惊悚/动作 司法腐败,复仇,程序正义,以暴制暴 一名被解雇的法官戴上兜帽,在深夜化身“地下裁判官”,专门惩罚法律制裁不了的恶人。">
+    <a href="./movies/movie-0074.html" title="公正裁决 在线观看">
+        <div class="poster-wrap">
+            <img src="./74.jpg" alt="公正裁决" loading="lazy">
+            <span class="poster-badge">剧集</span>
+        </div>
+        <div class="movie-card-body">
+            <h3>公正裁决</h3>
+            <p class="card-meta">2026 · 韩国 · 剧集 · 律政/惊悚/动作</p>
+            <p class="card-line">一名被解雇的法官戴上兜帽,在深夜化身“地下裁判官”,专门惩罚法律制裁不了的恶人。</p>
+            <div class="tag-row"><span>司法腐败</span><span>复仇</span><span>程序正义</span></div>
+        </div>
+    </a>
+</article>
+<article class="movie-card movie-card-compact" data-movie-card data-title="亚历山大和他最糟糕的旅程" data-meta="亚历山大和他最糟糕的旅程 美国 动画电影 2026 喜剧/家庭/冒险 倒霉蛋,公路旅行,成长治愈,动物伙伴 十岁男孩亚历山大在夏令营返程途中,遭遇了从行李丢失到火山爆发的连环灾难。">
+    <a href="./movies/movie-0046.html" title="亚历山大和他最糟糕的旅程 在线观看">
+        <div class="poster-wrap">
+            <img src="./46.jpg" alt="亚历山大和他最糟糕的旅程" loading="lazy">
+            <span class="poster-badge">动画电影</span>
+        </div>
+        <div class="movie-card-body">
+            <h3>亚历山大和他最糟糕的旅程</h3>
+            <p class="card-meta">2026 · 美国 · 动画电影 · 喜剧/家庭/冒险</p>
+            <p class="card-line">十岁男孩亚历山大在夏令营返程途中,遭遇了从行李丢失到火山爆发的连环灾难。</p>
+            <div class="tag-row"><span>倒霉蛋</span><span>公路旅行</span><span>成长治愈</span></div>
+        </div>
+    </a>
+</article>
+<article class="movie-card movie-card-compact" data-movie-card data-title="致命玩笑" data-meta="致命玩笑 美国 电影 2026 惊悚/恐怖 小丑,恶作剧,直播,反套路 一群网红直播玩“整蛊路人”的恶作剧,直到他们扮成小丑敲开了一个连环杀手的门。">
+    <a href="./movies/movie-0782.html" title="致命玩笑 在线观看">
+        <div class="poster-wrap">
+            <img src="./32.jpg" alt="致命玩笑" loading="lazy">
+            <span class="poster-badge">电影</span>
+        </div>
+        <div class="movie-card-body">
+            <h3>致命玩笑</h3>
+            <p class="card-meta">2026 · 美国 · 电影 · 惊悚/恐怖</p>
+            <p class="card-line">一群网红直播玩“整蛊路人”的恶作剧,直到他们扮成小丑敲开了一个连环杀手的门。</p>
+            <div class="tag-row"><span>小丑</span><span>恶作剧</span><span>直播</span></div>
+        </div>
+    </a>
+</article>
+<article class="movie-card movie-card-compact" data-movie-card data-title="我是你的野蛮女友" data-meta="我是你的野蛮女友 韩国 电影 2026 喜剧,爱情,动作 野蛮女友,反转,柔道,契约 她应聘成为富二代的“野蛮女友”,结果发现雇主是她失散多年的柔道教练。">
+    <a href="./movies/movie-0871.html" title="我是你的野蛮女友 在线观看">
+        <div class="poster-wrap">
+            <img src="./121.jpg" alt="我是你的野蛮女友" loading="lazy">
+            <span class="poster-badge">电影</span>
+        </div>
+        <div class="movie-card-body">
+            <h3>我是你的野蛮女友</h3>
+            <p class="card-meta">2026 · 韩国 · 电影 · 喜剧,爱情,动作</p>
+            <p class="card-line">她应聘成为富二代的“野蛮女友”,结果发现雇主是她失散多年的柔道教练。</p>
+            <div class="tag-row"><span>野蛮女友</span><span>反转</span><span>柔道</span></div>
+        </div>
+    </a>
+</article>
+<article class="movie-card movie-card-compact" data-movie-card data-title="最高通缉犯" data-meta="最高通缉犯 美国/德国 剧集 2026 动作/犯罪/悬疑 国际刑警,暗网追凶,道德灰色 落魄的前黑客被国际刑警招募去追踪“暗网法官”,却发现每个目标都罪有应得。">
+    <a href="./movies/movie-0231.html" title="最高通缉犯 在线观看">
+        <div class="poster-wrap">
+            <img src="./81.jpg" alt="最高通缉犯" loading="lazy">
+            <span class="poster-badge">剧集</span>
+        </div>
+        <div class="movie-card-body">
+            <h3>最高通缉犯</h3>
+            <p class="card-meta">2026 · 美国/德国 · 剧集 · 动作/犯罪/悬疑</p>
+            <p class="card-line">落魄的前黑客被国际刑警招募去追踪“暗网法官”,却发现每个目标都罪有应得。</p>
+            <div class="tag-row"><span>国际刑警</span><span>暗网追凶</span><span>道德灰色</span></div>
+        </div>
+    </a>
+</article>
+<article class="movie-card movie-card-compact" data-movie-card data-title="终极铁战士" data-meta="终极铁战士 美国 电影 2026 动作,科幻,惊悚 机甲,改造人,反乌托邦,硬核,暴力美学 退役铁甲战士被植入虚假记忆,醒来后发现他要暗杀的目标竟是自己的女儿。">
+    <a href="./movies/movie-1230.html" title="终极铁战士 在线观看">
+        <div class="poster-wrap">
+            <img src="./30.jpg" alt="终极铁战士" loading="lazy">
+            <span class="poster-badge">电影</span>
+        </div>
+        <div class="movie-card-body">
+            <h3>终极铁战士</h3>
+            <p class="card-meta">2026 · 美国 · 电影 · 动作,科幻,惊悚</p>
+            <p class="card-line">退役铁甲战士被植入虚假记忆,醒来后发现他要暗杀的目标竟是自己的女儿。</p>
+            <div class="tag-row"><span>机甲</span><span>改造人</span><span>反乌托邦</span></div>
+        </div>
+    </a>
+</article>
+<article class="movie-card movie-card-compact" data-movie-card data-title="碧血金沙" data-meta="碧血金沙 墨西哥/美国 电影 2026 西部/冒险 淘金热,人性贪婪,兄弟反目,沙漠求生 三人在沙漠发现金矿,但金子会让人“变成野兽”,他们要活着走出自己的贪念。">
+    <a href="./movies/movie-0105.html" title="碧血金沙 在线观看">
+        <div class="poster-wrap">
+            <img src="./105.jpg" alt="碧血金沙" loading="lazy">
+            <span class="poster-badge">电影</span>
+        </div>
+        <div class="movie-card-body">
+            <h3>碧血金沙</h3>
+            <p class="card-meta">2026 · 墨西哥/美国 · 电影 · 西部/冒险</p>
+            <p class="card-line">三人在沙漠发现金矿,但金子会让人“变成野兽”,他们要活着走出自己的贪念。</p>
+            <div class="tag-row"><span>淘金热</span><span>人性贪婪</span><span>兄弟反目</span></div>
+        </div>
+    </a>
+</article>
+<article class="movie-card movie-card-compact" data-movie-card data-title="沉迷性息" data-meta="沉迷性息 中国香港 电影 2026 剧情,悬疑 科技伦理,情感纠葛,反转 一位心理医生在治疗一位“性瘾症”患者时,发现自己男友的手机里也出现了同样的撩骚信息。">
+    <a href="./movies/movie-0489.html" title="沉迷性息 在线观看">
+        <div class="poster-wrap">
+            <img src="./39.jpg" alt="沉迷性息" loading="lazy">
+            <span class="poster-badge">电影</span>
+        </div>
+        <div class="movie-card-body">
+            <h3>沉迷性息</h3>
+            <p class="card-meta">2026 · 中国香港 · 电影 · 剧情,悬疑</p>
+            <p class="card-line">一位心理医生在治疗一位“性瘾症”患者时,发现自己男友的手机里也出现了同样的撩骚信息。</p>
+            <div class="tag-row"><span>科技伦理</span><span>情感纠葛</span><span>反转</span></div>
+        </div>
+    </a>
+</article>
+<article class="movie-card movie-card-compact" data-movie-card data-title="情到浓时" data-meta="情到浓时 中国香港 电影 2026 爱情,剧情 都市爱情,错过与重逢,文艺,怀旧 一对分手五年的情侣,因一本丢失的日记本重聚,发现对方始终活在自己的字里行间。">
+    <a href="./movies/movie-0152.html" title="情到浓时 在线观看">
+        <div class="poster-wrap">
+            <img src="./2.jpg" alt="情到浓时" loading="lazy">
+            <span class="poster-badge">电影</span>
+        </div>
+        <div class="movie-card-body">
+            <h3>情到浓时</h3>
+            <p class="card-meta">2026 · 中国香港 · 电影 · 爱情,剧情</p>
+            <p class="card-line">一对分手五年的情侣,因一本丢失的日记本重聚,发现对方始终活在自己的字里行间。</p>
+            <div class="tag-row"><span>都市爱情</span><span>错过与重逢</span><span>文艺</span></div>
+        </div>
+    </a>
+</article>
+<article class="movie-card movie-card-compact" data-movie-card data-title="异常生物见闻录 特别篇" data-meta="异常生物见闻录 特别篇 中国大陆 动画 2026 科幻,搞笑 日常,异种,特别篇 特别篇讲述房东老太太的真实身份——宇宙最强退休战神,以及她如何用广场舞拯救地球。">
+    <a href="./movies/movie-1957.html" title="异常生物见闻录 特别篇 在线观看">
+        <div class="poster-wrap">
+            <img src="./7.jpg" alt="异常生物见闻录 特别篇" loading="lazy">
+            <span class="poster-badge">动画</span>
+        </div>
+        <div class="movie-card-body">
+            <h3>异常生物见闻录 特别篇</h3>
+            <p class="card-meta">2026 · 中国大陆 · 动画 · 科幻,搞笑</p>
+            <p class="card-line">特别篇讲述房东老太太的真实身份——宇宙最强退休战神,以及她如何用广场舞拯救地球。</p>
+            <div class="tag-row"><span>日常</span><span>异种</span><span>特别篇</span></div>
+        </div>
+    </a>
+</article>
+<article class="movie-card movie-card-compact" data-movie-card data-title="雷云" data-meta="雷云 俄罗斯 电影 2026 科幻,悬疑,剧情 人工闪电,记忆篡改,政府阴谋 气象学家发明了控制雷云的技术,却发现自己和所有参与者的记忆每天都被雷暴“格式化”一次。">
+    <a href="./movies/movie-0449.html" title="雷云 在线观看">
+        <div class="poster-wrap">
+            <img src="./149.jpg" alt="雷云" loading="lazy">
+            <span class="poster-badge">电影</span>
+        </div>
+        <div class="movie-card-body">
+            <h3>雷云</h3>
+            <p class="card-meta">2026 · 俄罗斯 · 电影 · 科幻,悬疑,剧情</p>
+            <p class="card-line">气象学家发明了控制雷云的技术,却发现自己和所有参与者的记忆每天都被雷暴“格式化”一次。</p>
+            <div class="tag-row"><span>人工闪电</span><span>记忆篡改</span><span>政府阴谋</span></div>
+        </div>
+    </a>
+</article>
+<article class="movie-card movie-card-compact" data-movie-card data-title="美国范儿3" data-meta="美国范儿3 美国 剧集 2026 喜剧,时尚,青春 时尚圈,亚裔视角,文化冲突,梦想与现实 前两季的亚裔时尚博主进军巴黎,却发现“美国梦”在法国行不通,必须重塑“国际范儿”。">
+    <a href="./movies/movie-1259.html" title="美国范儿3 在线观看">
+        <div class="poster-wrap">
+            <img src="./59.jpg" alt="美国范儿3" loading="lazy">
+            <span class="poster-badge">剧集</span>
+        </div>
+        <div class="movie-card-body">
+            <h3>美国范儿3</h3>
+            <p class="card-meta">2026 · 美国 · 剧集 · 喜剧,时尚,青春</p>
+            <p class="card-line">前两季的亚裔时尚博主进军巴黎,却发现“美国梦”在法国行不通,必须重塑“国际范儿”。</p>
+            <div class="tag-row"><span>时尚圈</span><span>亚裔视角</span><span>文化冲突</span></div>
+        </div>
+    </a>
+</article>
+<article class="movie-card movie-card-compact" data-movie-card data-title="哈利·波特:一段魔法史" data-meta="哈利·波特:一段魔法史 美国 剧集 2026 奇幻,纪录片式剧情 魔法,伪纪录片,黑魔法,四大学院,起源 一部伪纪录片揭开霍格沃茨建校真相:四巨头因一本“禁书”反目,而斯莱特林竟是守护者。">
+    <a href="./movies/movie-1308.html" title="哈利·波特:一段魔法史 在线观看">
+        <div class="poster-wrap">
+            <img src="./108.jpg" alt="哈利·波特:一段魔法史" loading="lazy">
+            <span class="poster-badge">剧集</span>
+        </div>
+        <div class="movie-card-body">
+            <h3>哈利·波特:一段魔法史</h3>
+            <p class="card-meta">2026 · 美国 · 剧集 · 奇幻,纪录片式剧情</p>
+            <p class="card-line">一部伪纪录片揭开霍格沃茨建校真相:四巨头因一本“禁书”反目,而斯莱特林竟是守护者。</p>
+            <div class="tag-row"><span>魔法</span><span>伪纪录片</span><span>黑魔法</span></div>
+        </div>
+    </a>
+</article>
+<article class="movie-card movie-card-compact" data-movie-card data-title="向着星辰的长征" data-meta="向着星辰的长征 中国大陆 电影 2026 科幻/历史/剧情 航天,硬科幻,家国情怀 1969年,一群中国科学家用算盘敲出了载人航天的绝密计划。">
+    <a href="./movies/movie-1016.html" title="向着星辰的长征 在线观看">
+        <div class="poster-wrap">
+            <img src="./116.jpg" alt="向着星辰的长征" loading="lazy">
+            <span class="poster-badge">电影</span>
+        </div>
+        <div class="movie-card-body">
+            <h3>向着星辰的长征</h3>
+            <p class="card-meta">2026 · 中国大陆 · 电影 · 科幻/历史/剧情</p>
+            <p class="card-line">1969年,一群中国科学家用算盘敲出了载人航天的绝密计划。</p>
+            <div class="tag-row"><span>航天</span><span>硬科幻</span><span>家国情怀</span></div>
+        </div>
+    </a>
+</article>
+<article class="movie-card movie-card-compact" data-movie-card data-title="洛杉矶之战" data-meta="洛杉矶之战 美国 电影 2026 动作、科幻、战争 外星入侵,街头巷战,硬核枪战 外星人入侵洛杉矶,一支海军陆战队小队必须在断壁残垣中杀出一条血路。">
+    <a href="./movies/movie-1201.html" title="洛杉矶之战 在线观看">
+        <div class="poster-wrap">
+            <img src="./1.jpg" alt="洛杉矶之战" loading="lazy">
+            <span class="poster-badge">电影</span>
+        </div>
+        <div class="movie-card-body">
+            <h3>洛杉矶之战</h3>
+            <p class="card-meta">2026 · 美国 · 电影 · 动作、科幻、战争</p>
+            <p class="card-line">外星人入侵洛杉矶,一支海军陆战队小队必须在断壁残垣中杀出一条血路。</p>
+            <div class="tag-row"><span>外星入侵</span><span>街头巷战</span><span>硬核枪战</span></div>
+        </div>
+    </a>
+</article>
+<article class="movie-card movie-card-compact" data-movie-card data-title="我们的幸福时光" data-meta="我们的幸福时光 韩国 剧集 2026 剧情、家庭、治愈 时间胶囊,回忆,三兄妹,和解,生死 母亲临终前留下一把打不开的锁,三兄妹必须用儿时的记忆拼出密码,而密码是母亲藏了四十年的秘密。">
+    <a href="./movies/movie-0818.html" title="我们的幸福时光 在线观看">
+        <div class="poster-wrap">
+            <img src="./68.jpg" alt="我们的幸福时光" loading="lazy">
+            <span class="poster-badge">剧集</span>
+        </div>
+        <div class="movie-card-body">
+            <h3>我们的幸福时光</h3>
+            <p class="card-meta">2026 · 韩国 · 剧集 · 剧情、家庭、治愈</p>
+            <p class="card-line">母亲临终前留下一把打不开的锁,三兄妹必须用儿时的记忆拼出密码,而密码是母亲藏了四十年的秘密。</p>
+            <div class="tag-row"><span>时间胶囊</span><span>回忆</span><span>三兄妹</span></div>
+        </div>
+    </a>
+</article>
+<article class="movie-card movie-card-compact" data-movie-card data-title="七十二家房客第十四部粤语" data-meta="七十二家房客第十四部粤语 中国香港 剧集 2026 情景喜剧 粤语,市井,邻里,幽默,生活 包租婆的物业遭遇“共享公寓”新模式冲击,老房客们为了保住家园上演乌龙保卫战。">
+    <a href="./movies/movie-1711.html" title="七十二家房客第十四部粤语 在线观看">
+        <div class="poster-wrap">
+            <img src="./61.jpg" alt="七十二家房客第十四部粤语" loading="lazy">
+            <span class="poster-badge">剧集</span>
+        </div>
+        <div class="movie-card-body">
+            <h3>七十二家房客第十四部粤语</h3>
+            <p class="card-meta">2026 · 中国香港 · 剧集 · 情景喜剧</p>
+            <p class="card-line">包租婆的物业遭遇“共享公寓”新模式冲击,老房客们为了保住家园上演乌龙保卫战。</p>
+            <div class="tag-row"><span>粤语</span><span>市井</span><span>邻里</span></div>
+        </div>
+    </a>
+</article>
+<article class="movie-card movie-card-compact" data-movie-card data-title="莫斯科郊外的晚上" data-meta="莫斯科郊外的晚上 俄罗斯 电影 2026 爱情,历史,剧情 冷战,音乐,异国恋,克格勃 1962年,莫斯科郊外,苏联女翻译与英国间谍因一首中文歌曲《莫斯科郊外的晚上》陷入致命爱情。">
+    <a href="./movies/movie-1980.html" title="莫斯科郊外的晚上 在线观看">
+        <div class="poster-wrap">
+            <img src="./30.jpg" alt="莫斯科郊外的晚上" loading="lazy">
+            <span class="poster-badge">电影</span>
+        </div>
+        <div class="movie-card-body">
+            <h3>莫斯科郊外的晚上</h3>
+            <p class="card-meta">2026 · 俄罗斯 · 电影 · 爱情,历史,剧情</p>
+            <p class="card-line">1962年,莫斯科郊外,苏联女翻译与英国间谍因一首中文歌曲《莫斯科郊外的晚上》陷入致命爱情。</p>
+            <div class="tag-row"><span>冷战</span><span>音乐</span><span>异国恋</span></div>
+        </div>
+    </a>
+</article>
+<article class="movie-card movie-card-compact" data-movie-card data-title="东京出租车" data-meta="东京出租车 日本 电视剧 2026 剧情,日常,社会 单元剧,深夜档,人间百态,温情 深夜的东京,一辆出租车穿梭于霓虹灯下,每个乘客都带着一个无法向人言说的故事。">
+    <a href="./movies/movie-0740.html" title="东京出租车 在线观看">
+        <div class="poster-wrap">
+            <img src="./140.jpg" alt="东京出租车" loading="lazy">
+            <span class="poster-badge">电视剧</span>
+        </div>
+        <div class="movie-card-body">
+            <h3>东京出租车</h3>
+            <p class="card-meta">2026 · 日本 · 电视剧 · 剧情,日常,社会</p>
+            <p class="card-line">深夜的东京,一辆出租车穿梭于霓虹灯下,每个乘客都带着一个无法向人言说的故事。</p>
+            <div class="tag-row"><span>单元剧</span><span>深夜档</span><span>人间百态</span></div>
+        </div>
+    </a>
+</article>
+<article class="movie-card movie-card-compact" data-movie-card data-title="瑞典少女" data-meta="瑞典少女 瑞典 电影 2026 剧情/冒险 环保,成长,公路片 为了寻找失踪的环保科学家父亲,一个患有社交障碍的少女踏上横跨北欧的孤独旅程。">
+    <a href="./movies/movie-1153.html" title="瑞典少女 在线观看">
+        <div class="poster-wrap">
+            <img src="./103.jpg" alt="瑞典少女" loading="lazy">
+            <span class="poster-badge">电影</span>
+        </div>
+        <div class="movie-card-body">
+            <h3>瑞典少女</h3>
+            <p class="card-meta">2026 · 瑞典 · 电影 · 剧情/冒险</p>
+            <p class="card-line">为了寻找失踪的环保科学家父亲,一个患有社交障碍的少女踏上横跨北欧的孤独旅程。</p>
+            <div class="tag-row"><span>环保</span><span>成长</span><span>公路片</span></div>
+        </div>
+    </a>
+</article>
+<article class="movie-card movie-card-compact" data-movie-card data-title="灵魂纸扎店" data-meta="灵魂纸扎店 中国台湾 电影 2026 恐怖,惊悚,民俗 纸扎,冥婚,禁忌 接手祖传纸扎店的女孩发现,每当她完成一件作品,现实中就会有人离奇死亡。">
+    <a href="./movies/movie-1531.html" title="灵魂纸扎店 在线观看">
+        <div class="poster-wrap">
+            <img src="./31.jpg" alt="灵魂纸扎店" loading="lazy">
+            <span class="poster-badge">电影</span>
+        </div>
+        <div class="movie-card-body">
+            <h3>灵魂纸扎店</h3>
+            <p class="card-meta">2026 · 中国台湾 · 电影 · 恐怖,惊悚,民俗</p>
+            <p class="card-line">接手祖传纸扎店的女孩发现,每当她完成一件作品,现实中就会有人离奇死亡。</p>
+            <div class="tag-row"><span>纸扎</span><span>冥婚</span><span>禁忌</span></div>
+        </div>
+    </a>
+</article>
+<article class="movie-card movie-card-compact" data-movie-card data-title="无限接近" data-meta="无限接近 美国 电影 2026 科幻悬疑 平行宇宙,量子,恋人 物理学家发现亡妻还活在另一个平行宇宙,但每次接近她,自己就会患上严重的辐射病。">
+    <a href="./movies/movie-0166.html" title="无限接近 在线观看">
+        <div class="poster-wrap">
+            <img src="./16.jpg" alt="无限接近" loading="lazy">
+            <span class="poster-badge">电影</span>
+        </div>
+        <div class="movie-card-body">
+            <h3>无限接近</h3>
+            <p class="card-meta">2026 · 美国 · 电影 · 科幻悬疑</p>
+            <p class="card-line">物理学家发现亡妻还活在另一个平行宇宙,但每次接近她,自己就会患上严重的辐射病。</p>
+            <div class="tag-row"><span>平行宇宙</span><span>量子</span><span>恋人</span></div>
+        </div>
+    </a>
+</article>
+<article class="movie-card movie-card-compact" data-movie-card data-title="仲夏夜魔法" data-meta="仲夏夜魔法 美国 动画电影 2026 奇幻/家庭/喜剧 精灵,魔法,夏至 精灵女王为了拯救枯萎的魔法森林,意外将一个人类男孩的“噩梦”变成了能吃的实物。">
+    <a href="./movies/movie-0790.html" title="仲夏夜魔法 在线观看">
+        <div class="poster-wrap">
+            <img src="./40.jpg" alt="仲夏夜魔法" loading="lazy">
+            <span class="poster-badge">动画电影</span>
+        </div>
+        <div class="movie-card-body">
+            <h3>仲夏夜魔法</h3>
+            <p class="card-meta">2026 · 美国 · 动画电影 · 奇幻/家庭/喜剧</p>
+            <p class="card-line">精灵女王为了拯救枯萎的魔法森林,意外将一个人类男孩的“噩梦”变成了能吃的实物。</p>
+            <div class="tag-row"><span>精灵</span><span>魔法</span><span>夏至</span></div>
+        </div>
+    </a>
+</article>
+<article class="movie-card movie-card-compact" data-movie-card data-title="俄狄浦斯王" data-meta="俄狄浦斯王 希腊 电影 2026 剧情/悬疑/悲剧 古希腊悲剧,心理惊悚,宿命论 现代心理医生破解一桩弑父娶母连环案,最后发现预言指向自己。">
+    <a href="./movies/movie-0802.html" title="俄狄浦斯王 在线观看">
+        <div class="poster-wrap">
+            <img src="./52.jpg" alt="俄狄浦斯王" loading="lazy">
+            <span class="poster-badge">电影</span>
+        </div>
+        <div class="movie-card-body">
+            <h3>俄狄浦斯王</h3>
+            <p class="card-meta">2026 · 希腊 · 电影 · 剧情/悬疑/悲剧</p>
+            <p class="card-line">现代心理医生破解一桩弑父娶母连环案,最后发现预言指向自己。</p>
+            <div class="tag-row"><span>古希腊悲剧</span><span>心理惊悚</span><span>宿命论</span></div>
+        </div>
+    </a>
+</article>
+        </div>
+    </section>
+</main>
+<footer class="site-footer">
+    <div class="container footer-grid">
+        <div>
+            <a class="footer-brand" href="./index.html">
+                <span class="brand-mark">影</span>
+                <span>国产影视大全</span>
+            </a>
+            <p>国产影视大全专注于国产电影、电视剧的高清免费在线播放。汇集2024-2025年热门院线电影、经典影片及同步热播剧集，打造全面的国产视频片库。</p>
+        </div>
+        <div>
+            <h2>片库导航</h2>
+            <div class="footer-links">
+                <a href="./category-hot-picks.html">热映精选</a>
+                <a href="./category-cinema-hits.html">院线热片</a>
+                <a href="./category-drama-series.html">剧集连看</a>
+                <a href="./category-suspense-night.html">悬疑夜场</a>
+                <a href="./category-action-zone.html">动作专区</a>
+                <a href="./category-romance-city.html">都市爱情</a>
+                <a href="./category-classic-library.html">经典片库</a>
+                <a href="./category-youth-comedy.html">青春喜剧</a>
+            </div>
+        </div>
+        <div>
+            <h2>快速入口</h2>
+            <div class="footer-links">
+                <a href="./index.html#library">全部影片</a>
+                <a href="./ranking.html">热门排行</a>
+                <a href="./search.html">影片搜索</a>
+                <a href="./categories.html">分类总览</a>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">© <span data-current-year></span> 国产影视大全 · 免费高清在线观看最新国产片与电视剧</div>
+</footer>
+<script src="./assets/site.js" defer></script>
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?95df08bc498ee0333203841fd6fee1eb";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
